@@ -22,3 +22,22 @@
     justify-content: center;
     align-items: center;
 }
+
+@media(max-width:768px){
+    .ubicacion{
+        flex-direction: column;
+    }
+    .ubiText{
+        outline: 1px solid blue;
+        width: 100%;
+        padding: 5%;
+    }
+    .ubiSvg{
+        outline: 1px solid green;
+        width: 100%;
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
