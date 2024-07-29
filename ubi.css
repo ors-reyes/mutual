@@ -1,0 +1,24 @@
+.ubicacion{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid red;
+}
+.ubiText{
+    outline: 1px solid blue;
+    width: 50%;
+    padding: 10%;
+}
+.ubiText p{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bold;
+}
+.ubiSvg{
+    outline: 1px solid green;
+    width: 50%;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
