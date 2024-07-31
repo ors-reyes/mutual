@@ -1,0 +1,31 @@
+#simpleA-01{
+  fill: #b2b2b2;
+}
+#monoA-01{
+  fill: #b2b2b2;
+}
+#monoB-01{
+  fill: #b2b2b2;
+}
+#simpleB-01{
+  fill: #b2b2b2;
+}
+#simpleC-01{
+  fill: #b2b2b2;
+}
+#monoC-01{
+  fill: #b2b2b2;
+}
+#monoD-01{
+  fill: #b2b2b2;
+}
+#simpleD-01{
+  fill: #b2b2b2;
+}
+#bloque-01{
+  transform: translate(0px, 0px);
+}
+.vacio-01 {
+  transform: translateY(0px);
+  fill: rgba(0, 255, 255, 0.5);
+}

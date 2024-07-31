@@ -1,0 +1,53 @@
+#simpleA-06{
+  fill: #b2b2b2;
+}
+#monoA-06{
+  fill: #b2b2b2;
+}
+#monoB-06{
+  fill: #b2b2b2;
+}
+#simpleB-06{
+  fill: #b2b2b2;
+}
+#simpleC-06{
+  fill: #b2b2b2;
+}
+#monoC-06{
+  fill: #b2b2b2;
+}
+#monoD-06{
+  fill: #b2b2b2;
+}
+#simpleD-06{
+  fill: #b2b2b2;
+}
+#bloque-06{
+  transform: translate(0px, -1150px);
+}
+.vacio-06 {
+  transform: translateY(-1150px);
+  fill: rgba(0, 0, 0, 0.5);
+}
+.ver-06{
+  animation:ver-06 0.5s forwards ease-in-out;
+}
+@keyframes ver-06 {
+  0%{
+    transform: translate(0px, -1150px);
+  }
+  100%{
+    transform: translate(1500px, -1150px);
+  }
+}
+.mono-06{
+  animation:mono-06 0.5s forwards ease-in-out;
+}
+@keyframes mono-06 {
+  0%{
+    transform: translate(1500px, -1150px);
+  }
+  100%{
+    transform: translate(0px, -1150px);
+  }
+}

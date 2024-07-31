@@ -1,0 +1,21 @@
+const btnSimple = document.querySelector(".btnSimple")
+const btnMono = document.querySelector(".btnMono")
+const btnDoble = document.querySelector(".btnDoble")
+const svgEdificio = document.querySelector("#orsEdificio")
+// console.log(svgEdificio)
+const simple04 = svgEdificio.querySelector("#bloque-04")
+const simple05 = svgEdificio.querySelector("#bloque-05")
+const simple06 = svgEdificio.querySelector("#bloque-06")
+
+btnSimple.addEventListener("click", ()=>{
+    simple04.classList.add("ver-04")
+    simple05.classList.add("ver-05")
+    simple06.classList.add("ver-06")
+    simple06.classList.remove("mono-06")
+    console.log(simple06.classList)
+})
+btnMono.addEventListener("click", ()=>{
+    simple06.classList.remove("ver-06")
+    simple06.classList.add("mono-06")
+    console.log(simple06.classList)
+})

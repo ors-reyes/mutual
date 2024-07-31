@@ -1,0 +1,42 @@
+#simpleA-05{
+  fill: #b2b2b2;
+}
+#monoA-05{
+  fill: #b2b2b2;
+}
+#monoB-05{
+  fill: #b2b2b2;
+}
+#simpleB-05{
+  fill: #b2b2b2;
+}
+#simpleC-05{
+  fill: #b2b2b2;
+}
+#monoC-05{
+  fill: #b2b2b2;
+}
+#monoD-05{
+  fill: #b2b2b2;
+}
+#simpleD-05{
+  fill: #b2b2b2;
+}
+#bloque-05{
+  transform: translate(0px, -920px);
+}
+.vacio-05 {
+  transform: translateY(-920px);
+  fill: rgba(0, 0, 0, 0.5);
+}
+.ver-05{
+  animation:ver-05 0.5s forwards ease-in-out;
+}
+@keyframes ver-05 {
+  0%{
+    transform: translate(0px, -920px);
+  }
+  100%{
+    transform: translate(1500px, -920px);
+  }
+}

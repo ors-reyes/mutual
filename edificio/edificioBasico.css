@@ -1,0 +1,10 @@
+.fondoEdi {fill: transparent;}
+.fondoIzquierda {fill: #00ffff;}
+.fondoEstacionamientoIzquierda {fill: #b2b2b2;}
+.allTxtIzquierda {font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;font-weight: bold;font-size: 60px;fill: #000000;}
+.bloqueFrente, .bloqueAtras{fill: #b2b2b2;}
+.ascensor {fill: rgba(255, 255, 255, 0.5);}
+.bloqueFrenteLineas, .ascensorLineas, .bloqueAtrasLineas{stroke-linecap: round;stroke-linejoin: round;fill: none;
+    stroke: #000000;
+    stroke-width: 3;
+ }
