@@ -3,10 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: 1px solid red;
 }
 .ubiText{
-    outline: 1px solid blue;
     width: 50%;
     padding: 10%;
 }
@@ -14,30 +12,75 @@
     font-family: "Titillium Web", sans-serif;
     font-weight: bold;
 }
+.ubiText p strong{
+    color: #006d6d;
+    font-weight: 500;
+}
 .ubiSvg{
-    outline: 1px solid green;
     width: 50%;
     padding: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.edificio{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgEdificio{
+    width: 50vw;
+    height: 90vh;
+    background-image: url(edificioIdea-3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: 1px solid red;
+}
+
+.ediBotones button{
+    width: 50vw;
+    outline: 1px solid red;
+    cursor: pointer;
+}
+
 
 @media(max-width:801px){
     .ubicacion{
         flex-direction: column;
     }
     .ubiText{
-        outline: 1px solid blue;
         width: 100%;
         padding: 5%;
     }
     .ubiSvg{
-        outline: 1px solid green;
         width: 100%;
         padding: 5%;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .edificio{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgEdificio{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(edificioIdea-3.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        outline: 1px solid red;
+    }
+    
+    .ediBotones button{
+        width: 50vw;
+        outline: 1px solid red;
+        cursor: pointer;
     }
 }

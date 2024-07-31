@@ -3,18 +3,48 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 753.72 722.57" style="enable-background:new 0 0 753.72 722.57;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#999999;stroke-width:0.5669;stroke-miterlimit:22.9256;}
-	.st1{fill:none;stroke:#FF0000;stroke-width:15.9999;stroke-miterlimit:22.9256;}
-	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st0{fill:none;stroke:#999999;stroke-width:0.5669;stroke-miterlimit:22.9256;
+		filter: url(#turbulencia2)
+	}
+	.st1{fill:none;stroke:#FF0000;stroke-width:15.9999;stroke-miterlimit:22.9256;
+		filter: url(#turbulencia)
+	}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#00FFFF;}
 	.st3{clip-path:url(#SVGID_00000098187316330678286310000018149954462829502127_);}
 	.st4{clip-path:url(#SVGID_00000077301582918535810520000017648263960406344353_);}
 	.st5{fill:none;stroke:#00FFFF;stroke-width:7.9999;stroke-miterlimit:22.9256;}
 	.st6{clip-path:url(#SVGID_00000178926365825254742550000009235247651928897944_);}
 	.st7{clip-path:url(#SVGID_00000150804285511392747410000016272232777815275422_);}
 	.st8{fill:none;stroke:#FFFFFF;stroke-width:7.6982;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;}
-	.st9{fill:#00FFFF;}
+	.st9{fill:#006d6d;}
 	.st10{fill:none;stroke:#FFFFFF;stroke-width:7.6981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;}
 </style>
+<filter id="turbulencia">
+    <feTurbulence
+      type="turbulence"
+      baseFrequency="0.005"
+      numOctaves="5"
+      result="turbulence" />
+    <feDisplacementMap
+      in2="turbulence"
+      in="SourceGraphic"
+      scale="5"
+      xChannelSelector="R"
+      yChannelSelector="G" />
+</filter>
+<filter id="turbulencia2">
+    <feTurbulence
+      type="turbulence"
+      baseFrequency="0.005"
+      numOctaves="5"
+      result="turbulence" />
+    <feDisplacementMap
+      in2="turbulence"
+      in="SourceGraphic"
+      scale="15"
+      xChannelSelector="R"
+      yChannelSelector="G" />
+</filter>
 <path class="st0" d="M411.79,2.28l-5,60.3l76.24-0.02l38.71-0.1l-0.16-60.17h15.94l0.72,267.43h-15.94l-0.52-191.32l-30.89,0.08
 	l-0.67,49.95l-15.05,31.22L317.25,283.3l-9.81-12.56l154.95-121.32l11.95-24.78l0.62-46.13l-161.76,0.05V62.61l77.56-0.02l5-60.3
 	H411.79z M73.39,328.26l-29.33-55.04L2.64,260.77v-3.28l3.66-12.3l48.68,14.64l32.47,60.94L73.39,328.26z M215.46,279.93l0.68-65.43
