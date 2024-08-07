@@ -1,4 +1,4 @@
-.fondo{fill-rule:evenodd;clip-rule:evenodd;fill:#808080;}
+.fondo{fill-rule:evenodd;clip-rule:evenodd;fill:transparent;}
 	.estacionTecho{fill-rule:evenodd;clip-rule:evenodd;fill:#CBCBCB;}
 	.lineasEstructuraFull{fill:none;stroke:#000;stroke-width:2;}
 	.estacion{fill-rule:evenodd;clip-rule:evenodd;fill:#1f3973;}
