@@ -1,0 +1,12 @@
+.fondo{fill-rule:evenodd;clip-rule:evenodd;fill:#808080;}
+	.estacionTecho{fill-rule:evenodd;clip-rule:evenodd;fill:#CBCBCB;}
+	.lineasEstructuraFull{fill:none;stroke:#000;stroke-width:2;}
+	.estacion{fill-rule:evenodd;clip-rule:evenodd;fill:#1f3973;}
+	.ascensorFondo{fill-rule:evenodd;clip-rule:evenodd;fill: #000; }
+	.adornoLeft{fill-rule:evenodd;clip-rule:evenodd;fill:#1f3973;}
+	.pisosAdorno{fill-rule:evenodd;clip-rule:evenodd;fill:#ccc;}
+	
+
+	.fontLeft{font-size:65px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #000;}
+	.lineasFullAscensor{fill:none;stroke:#fff;stroke-width:2;}
+	.lineasEstructuraFull2{fill:none;stroke:#000;stroke-width:2;}

@@ -1,0 +1,111 @@
+.unDormiFondo{fill:#1F3973;}
+	.unDormiTexto{fill:#fff;font-weight: bolder;font-size:77px;font-family: "Exo", sans-serif;}
+
+	.unDormiMonoFondo{fill:#1F3973;}
+	.unDormiMonoTexto{fill:#fff;font-weight: bolder;font-size:77px;font-family: "Exo", sans-serif;}
+	
+	.dosDormiFondo{fill:#1F3973;}
+	.dosDormiTexto{fill:#fff;font-weight: bolder;font-size:77px;font-family: "Exo", sans-serif;}
+	
+	.btnTitulo{fill:#242424;font-weight: bolder;font-size:123px;font-family: "Exo", sans-serif;}
+	
+	.recuadroBotones{fill:none;stroke:#231F20;stroke-width:5;}
+	.unDormoi,.unDormoiMono,.dosDormoi{cursor: pointer;transition: all 1.5s;}
+    .moveY{
+        transition: all 1.5s;
+        transform: translateY(1745px);
+    }
+	.unDormoi:hover,.unDormoiMono:hover,.dosDormoi:hover{opacity: 0.7;}
+
+
+
+
+    /* numero de pisos bloque B */
+
+
+
+    .titulo2doBotones{font-size:123px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+
+	.fnd5to{fill:#1f3973;}
+	.txt5to{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+
+	.fnd6to{fill:#1f3973;}
+	.txt6to{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+
+	.fnd7mo{fill:#1f3973;}
+	.txt7mo{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+
+	.fnd8vo{fill:#1f3973;}
+	.txt8vo{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+
+	.fnd9no{fill:#1f3973;}
+	.txt9no{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+
+	.fnd10mo{fill:#1f3973;}
+	.txt10mo{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+
+	.fnd11ro{fill:#1f3973;}
+	.txt11ro{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+
+	.fnd12do{fill:#1f3973;}
+	.txt12do{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+
+    .btn5to,.btn6to,.btn7mo,.btn8vo,.btn9no,.btn10mo,.btn11ro,.btn12do{cursor: pointer;}
+	.btn5to:hover,.btn6to:hover,.btn7mo:hover,.btn8vo:hover,.btn9no:hover,.btn10mo:hover,.btn11ro:hover,.btn12do:hover{opacity: 0.7;}
+
+	.botonesBloqueB{
+		transform: translate(-900px, 0px);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 2s;
+	}
+    .verBtn1{
+        transform: translate(0px, 0px);
+        opacity: 1;
+        visibility: visible;
+        transition: all 2s;
+    }
+    .verBtn2{
+        transform: translate(0px, 410px);
+        opacity: 1;
+        visibility: visible;
+        transition: all 2s;
+    }
+
+
+    .btnBCTitle{font-size:123px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+
+	.fondBC13ro{fill:#1f3973;}
+	.textBC13ro{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+
+	.fondBC14to{fill:#1f3973;}
+	.textBC14to{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+
+	.fondBC15to{fill:#1f3973;}
+	.textBC15to{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+
+	.fondBC16to{fill:#1f3973;}
+	.textBC16to{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+
+	.fondBC17mo{fill:#1f3973;}
+	.textBC17to{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+
+	.fondBC18vo{fill:#1f3973;}
+	.textBC18vo{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+
+
+	.btn13ro,.btn14to,.btn15to,.btn16to,.btn17mo,.btn18vo{cursor:pointer;transform: translate(0px, 0px);}
+	.btn13ro:hover,.btn14to:hover,.btn15to:hover,.btn16to:hover,.btn17mo:hover,.btn18vo:hover{opacity: 0.7;}
+
+    .botonesBloqueC{
+		transform: translate(-900px, 0px);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 2s;
+	}
+    .verBtn3{
+        transform: translate(0px, 0px);
+        opacity: 1;
+        visibility: visible;
+        transition: all 2s;
+    }
