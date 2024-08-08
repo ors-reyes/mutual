@@ -1,134 +1,56 @@
 .fondo{fill:#808080;}
 
-.d101{fill:#ccc;}
-.d102{fill:#ccc;}
-.d103{fill:#ccc;}
-.d104{fill:#ccc;}
-.d105{fill:#ccc;}
-.d106{fill:#ccc;}
-.d107{fill:#ccc;}
-.d108{fill:#ccc;}
+.d101,.d102,.d103,.d104,.d105,.d106,.d107,.d108,.d201,.d202,.d203,.d204,.d205,.d206,.d207,.d208,.d301,.d302,.d303,.d304,.d305,.d306,.d307,.d308,.d401,.d402,.d403,.d404,.d405,.d406,.d407,.d408,.d501,.d502,.d503,.d504,.d505,.d506,.d507,.d508,.b601,.b602,.b603,.b604,.b605,.b606,.b607,.b608,.b701,.b702,.b703,.b704,.b705,.b706,.b707,.b708,.b801,.b802,.b803,.b804,.b805,.b806,.b807,.b808{fill:#ccc; transition: all 1.5s;}
 
-.d201{fill:#ccc;}
-.d202{fill:#ccc;}
-.d203{fill:#ccc;}
-.d204{fill:#ccc;}
-.d205{fill:#ccc;}
-.d206{fill:#ccc;}
-.d207{fill:#ccc;}
-.d208{fill:#ccc;}
-
-.d301{fill:#ccc;}
-.d302{fill:#ccc;}
-.d303{fill:#ccc;}
-.d304{fill:#ccc;}
-.d305{fill:#ccc;}
-.d306{fill:#ccc;}
-.d307{fill:#ccc;}
-.d308{fill:#ccc;}
-
-.d401{fill:#ccc;}
-.d402{fill:#ccc;}
-.d403{fill:#ccc;}
-.d404{fill:#ccc;}
-.d405{fill:#ccc;}
-.d406{fill:#ccc;}
-.d407{fill:#ccc;}
-.d408{fill:#ccc;}
-
-.d501{fill:#ccc;}
-.d502{fill:#ccc;}
-.d503{fill:#ccc;}
-.d504{fill:#ccc;}
-.d505{fill:#ccc;}
-.d506{fill:#ccc;}
-.d507{fill:#ccc;}
-.d508{fill:#ccc;}
-
-.b601{fill:#ccc;}
-.b602{fill:#ccc;}
-.b603{fill:#ccc;}
-.b604{fill:#ccc;}
-.b605{fill:#ccc;}
-.b606{fill:#ccc;}
-.b607{fill:#ccc;}
-.b608{fill:#ccc;}
-
-.b701{fill:#ccc;}
-.b702{fill:#ccc;}
-.b703{fill:#ccc;}
-.b704{fill:#ccc;}
-.b705{fill:#ccc;}
-.b706{fill:#ccc;}
-.b707{fill:#ccc;}
-.b708{fill:#ccc;}
-
-.b801{fill:#ccc;}
-.b802{fill:#ccc;}
-.b803{fill:#ccc;}
-.b804{fill:#ccc;}
-.b805{fill:#ccc;}
-.b806{fill:#ccc;}
-.b807{fill:#ccc;}
-.b808{fill:#ccc;}
-
-.c901{fill:#ccc;}
-.c902{fill:#ccc;}
-.c903{fill:#ccc;}
-.c904{fill:#ccc;}
-
-.c1001{fill:#ccc;}
-.c1002{fill:#ccc;}
-.c1003{fill:#ccc;}
-.c1004{fill:#ccc;}
-
-.c1101{fill:#ccc;}
-.c1102{fill:#ccc;}
-.c1103{fill:#ccc;}
-.c1104{fill:#ccc;}
-
-.c1201{fill:#ccc;}
-.c1202{fill:#ccc;}
-.c1203{fill:#ccc;}
-.c1204{fill:#ccc;}
-
-.c1301{fill:#ccc;}
-.c1302{fill:#ccc;}
-.c1303{fill:#ccc;}
-.c1304{fill:#ccc;}
-
-.c1401{fill:#ccc;}
-.c1402{fill:#ccc;}
-.c1403{fill:#ccc;}
-.c1404{fill:#ccc;}
-    
+.c901,.c902,.c903,.c904,.c1001,.c1002,.c1003,.c1004,.c1101,.c1102,.c1103,.c1104,.c1201,.c1202,.c1203,.c1204,.c1301,.c1302,.c1303,.c1304,.c1401,.c1402,.c1403,.c1404{fill:#ccc; transition: all 1.5s;}
 .paredes{fill:#B3B3B3;}
 .ascensor{fill:#242424;}
 .estructuraAscensor{fill:none;stroke:#fff;stroke-width:2;}
 .lineasEstructural{fill:none;stroke:#000;stroke-width:2;}
 
-/* .b100{transform: translateX(1500px);} */
-/* .b200{transform: translateX(1500px);} */
-/* .b300{transform: translateX(1500px);} */
-/* .b400{transform: translateX(1500px);} */
-/* .b500{transform: translateX(1500px);} */
-/* .b600{transform: translateX(1500px);} */
-/* .b700{transform: translateX(1500px);} */
-/* .b800{transform: translateX(1500px);} */
+/* .b100{transform: translateX(1100px);} */
+/* .b200{transform: translateX(1100px);} */
+/* .b400{transform: translateX(1100px);} */
+/* .b500{transform: translateX(1100px);} */
+/* .b600{transform: translateX(1100px);} */
+/* .b800{transform: translateX(1100px);} */
 
-/* .c900{transform: translateX(1500px);} */
-/* .c1000{transform: translateX(1500px);} */
-/* .c1100{transform: translateX(1500px);} */
-/* .c1200{transform: translateX(1500px);} */
-/* .c1300{transform: translateX(1500px);} */
-/* .c1400{transform: translateX(1500px);} */
+/* .c900{transform: translateX(1100px);} */
+/* .c1000{transform: translateX(1100px);} */
+/* .c1100{transform: translateX(1100px);} */
+/* .c1200{transform: translateX(1100px);} */
+/* .c1300{transform: translateX(1100px);} */
+/* .c1400{transform: translateX(1100px);} */
 
-/* .bloqueB{transform: translateX(1500px);} */
-/* .bloqueC{transform: translateX(1500px);} */
-/* .b600{transform: translateX(-1500px);} */
+/* .bloqueB{transform: translateX(1100px);} */
+/* .bloqueC{transform: translateX(1100px);} */
+/* .b600{transform: translateX(-1100px);} */
 .bloqueB,.bloqueC{
     transition: all 1.5s;
 }
+.actTipologia{
+    transition: all 1.5s;
+    animation: actTipologia 1.5s forwards 0.5s;
+}
+@keyframes actTipologia{
+    0%{
+        fill: #ccc;
+        stroke:#000;stroke-width:3;
+    }100%{
+        fill: #1f3973;
+        stroke:#000;stroke-width:3;
+    }
+}
 .actB{
     transform: translateX(1100px);
+}
+.seccionesB{ transition: all 1.5s;}
+.seccionesC{ transition: all 1.5s;}
+.salir{
+    transform: translateX(0px);
+    /* animation: salir 0.5s forwards 3s ease-in; */
+}
+@keyframes salir{
+    0%{transform: translateX(1100px);}
+    100%{transform: translateX(0px);}
 }

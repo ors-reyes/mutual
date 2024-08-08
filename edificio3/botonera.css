@@ -1,71 +1,51 @@
-.unDormiFondo{fill:#1F3973;}
-	.unDormiTexto{fill:#fff;font-weight: bolder;font-size:77px;font-family: "Exo", sans-serif;}
-
-	.unDormiMonoFondo{fill:#1F3973;}
-	.unDormiMonoTexto{fill:#fff;font-weight: bolder;font-size:77px;font-family: "Exo", sans-serif;}
-	
-	.dosDormiFondo{fill:#1F3973;}
-	.dosDormiTexto{fill:#fff;font-weight: bolder;font-size:77px;font-family: "Exo", sans-serif;}
-	
-	.btnTitulo{fill:#242424;font-weight: bolder;font-size:123px;font-family: "Exo", sans-serif;}
-	
-	.recuadroBotones{fill:none;stroke:#231F20;stroke-width:5;}
-	.unDormoi,.unDormoiMono,.dosDormoi{cursor: pointer;transition: all 1.5s;}
-    .moveY{
-        transition: all 1.5s;
-        transform: translateY(1745px);
-    }
-	.unDormoi:hover,.unDormoiMono:hover,.dosDormoi:hover{opacity: 0.7;}
-
-
-
-
+.recuadroBotones{fill:none;stroke:#231F20;stroke-width:5;}
+.unDormiFondo,.unDormiMonoFondo,.dosDormiFondo{fill:#1F3973;}
+.unDormiTexto,.unDormiMonoTexto,.dosDormiTexto,.btnTitulo{fill:#fff;font-weight: bolder;font-size:77px;font-family: "Exo", sans-serif;}
+.btnTitulo{fill:#242424;font-size:123px}
+.unDormi,.dormiMono,.dosDormi{cursor: pointer;transition: all 1.5s;}
+.unDormi:hover,.dormiMono:hover,.dosDormi:hover{opacity: 0.7;}
     /* numero de pisos bloque B */
+.titulo2doBotones{font-size:123px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #242424;}
+.fnd5to,.fnd6to,.fnd7mo,.fnd8vo,.fnd9no,.fnd10mo,.fnd11ro,.fnd12do{fill:#1f3973;}
+.txt5to,.txt6to,.txt7mo,.txt8vo,.txt9no,.txt10mo,.txt11ro,.txt12do{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+.btn5to,.btn6to,.btn7mo,.btn8vo,.btn9no,.btn10mo,.btn11ro,.btn12do{cursor: pointer;}
+.btn5to:hover,.btn6to:hover,.btn7mo:hover,.btn8vo:hover,.btn9no:hover,.btn10mo:hover,.btn11ro:hover,.btn12do:hover{opacity: 0.7;}
+.btnBCTitle{font-size:123px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #242424;}
+.fondBC13ro,.fondBC14to,.fondBC15to,.fondBC16to,.fondBC17mo,.fondBC18vo{fill:#1f3973;}
+.textBC13ro,.textBC14to,.textBC15to,.textBC16to,.textBC17to,.textBC18vo{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+.btn13ro,.btn14to,.btn15to,.btn16to,.btn17mo,.btn18vo{cursor:pointer;transform: translate(0px, 0px);}
+.btn13ro:hover,.btn14to:hover,.btn15to:hover,.btn16to:hover,.btn17mo:hover,.btn18vo:hover{opacity: 0.7;}
 
+.reiniciarFnd{fill:#1F3973;}	
+.reiniciarIcon{fill:#FFFFFF;}
+.reiniciarTxt{fill:#fff;font-weight: bolder;font-size:75px;font-family: "Exo", sans-serif;}
+.reiniarEdi:hover{opacity: 0.7;}
+.reiniarEdi{cursor: pointer;transition: all 1.5s; transform: translateY(150px);opacity: 0;visibility: hidden;}
+/* .reiniarEdi{cursor: pointer;transition: all 1.5s;} */
+.mostrarReinicio{
+    transition: all 1.5s;
+    transform: translateY(1300px);opacity: 1;visibility: visible;
+}
 
+	.desabilitarBtn{pointer-events: none;opacity: 0.2;}
 
-    .titulo2doBotones{font-size:123px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #242424;}
-
-	.fnd5to{fill:#1f3973;}
-	.txt5to{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
-
-	.fnd6to{fill:#1f3973;}
-	.txt6to{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
-
-	.fnd7mo{fill:#1f3973;}
-	.txt7mo{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
-
-	.fnd8vo{fill:#1f3973;}
-	.txt8vo{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
-
-	.fnd9no{fill:#1f3973;}
-	.txt9no{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
-
-	.fnd10mo{fill:#1f3973;}
-	.txt10mo{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
-
-	.fnd11ro{fill:#1f3973;}
-	.txt11ro{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
-
-	.fnd12do{fill:#1f3973;}
-	.txt12do{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
-
-    .btn5to,.btn6to,.btn7mo,.btn8vo,.btn9no,.btn10mo,.btn11ro,.btn12do{cursor: pointer;}
-	.btn5to:hover,.btn6to:hover,.btn7mo:hover,.btn8vo:hover,.btn9no:hover,.btn10mo:hover,.btn11ro:hover,.btn12do:hover{opacity: 0.7;}
-
+	.moveY{
+		transition: all 1.5s;
+		transform: translateY(1745px);
+	}
 	.botonesBloqueB{
 		transform: translate(-900px, 0px);
         opacity: 0;
         visibility: hidden;
         transition: all 2s;
 	}
-    .verBtn1{
+    .mostrarPisosUnDormi{
         transform: translate(0px, 0px);
         opacity: 1;
         visibility: visible;
         transition: all 2s;
     }
-    .verBtn2{
+    .mostrarPisosDormiMono{
         transform: translate(0px, 410px);
         opacity: 1;
         visibility: visible;
@@ -73,37 +53,13 @@
     }
 
 
-    .btnBCTitle{font-size:123px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #242424;}
-
-	.fondBC13ro{fill:#1f3973;}
-	.textBC13ro{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
-
-	.fondBC14to{fill:#1f3973;}
-	.textBC14to{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
-
-	.fondBC15to{fill:#1f3973;}
-	.textBC15to{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
-
-	.fondBC16to{fill:#1f3973;}
-	.textBC16to{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
-
-	.fondBC17mo{fill:#1f3973;}
-	.textBC17to{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
-
-	.fondBC18vo{fill:#1f3973;}
-	.textBC18vo{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
-
-
-	.btn13ro,.btn14to,.btn15to,.btn16to,.btn17mo,.btn18vo{cursor:pointer;transform: translate(0px, 0px);}
-	.btn13ro:hover,.btn14to:hover,.btn15to:hover,.btn16to:hover,.btn17mo:hover,.btn18vo:hover{opacity: 0.7;}
-
     .botonesBloqueC{
 		transform: translate(-900px, 0px);
         opacity: 0;
         visibility: hidden;
         transition: all 2s;
 	}
-    .verBtn3{
+    .mostrarPisosDosDormi{
         transform: translate(0px, 0px);
         opacity: 1;
         visibility: visible;

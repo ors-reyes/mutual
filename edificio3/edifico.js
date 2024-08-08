@@ -7,8 +7,7 @@ const bloqueC = document.querySelector(".bloqueC")
 
 const botonesBloqueB = document.querySelector(".botonesBloqueB")
 const botonesBloqueC = document.querySelector(".botonesBloqueC")
-// verBtn1
-// verBtn2
+
 btnUno.addEventListener("click", ()=>{
     btnUno.style.opacity = 0.2
     btnUno.style.pointerEvents = "none"
@@ -44,9 +43,6 @@ btnDos.addEventListener("click", ()=>{
     btnTres.classList.add("moveY")
     botonesBloqueC.classList.remove("verBtn3")
     botonesBloqueB.classList.add("verBtn2")
-    
-
-
     bloqueC.classList.remove("actB")
     
     bloqueB.classList.forEach(clase=>{
