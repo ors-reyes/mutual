@@ -1,0 +1,29 @@
+.calleSoltero,.callePareja,.calleFamilia{fill-rule:evenodd;clip-rule:evenodd;fill:#000;}
+.ascSoltero,.ascPareja,.ascFamilia{fill-rule:evenodd;clip-rule:evenodd;fill:#B2B2B2;}
+
+.esquemaSoltero,.esquemaPareja,.esquemaFamila{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1.5s;
+}
+.mostrarEsquema{
+    opacity: 1;
+    visibility: visible;
+    transition: all 1.5s;
+}
+
+.fndH101,.fndH104,.fndH105,.fndH108{fill-rule:evenodd;clip-rule:evenodd;fill:#1f3973;cursor: pointer;}
+.fndH101:hover,.fndH104:hover,.fndH105:hover,.fndH108:hover{opacity: 0.7;}
+.txtH101,.txtH104,.txtH105,.txtH108{font-family: "Exo", sans-serif;font-weight: bolder;font-size:64px;fill:#FFF;cursor: pointer;}
+
+
+.h100{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1.5s;
+}
+.mostrarH100{
+    opacity: 1;
+    visibility: visible;
+    transition: all 1.5s;
+}

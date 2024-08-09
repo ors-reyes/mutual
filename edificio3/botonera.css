@@ -11,8 +11,8 @@
 .btn5to,.btn6to,.btn7mo,.btn8vo,.btn9no,.btn10mo,.btn11ro,.btn12do{cursor: pointer;}
 .btn5to:hover,.btn6to:hover,.btn7mo:hover,.btn8vo:hover,.btn9no:hover,.btn10mo:hover,.btn11ro:hover,.btn12do:hover{opacity: 0.7;}
 .btnBCTitle{font-size:123px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #242424;}
-.fondBC13ro,.fondBC14to,.fondBC15to,.fondBC16to,.fondBC17mo,.fondBC18vo{fill:#1f3973;}
-.textBC13ro,.textBC14to,.textBC15to,.textBC16to,.textBC17to,.textBC18vo{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
+.fnd13ro,.fnd14to,.fnd15to,.fnd16to,.fnd17mo,.fnd18vo{fill:#1f3973;}
+.txt13ro,.txt14to,.txt15to,.txt16to,.txt17mo,.txt18vo{font-size:77px;font-family: "Exo", sans-serif;font-weight: bolder; fill: #fff;}
 .btn13ro,.btn14to,.btn15to,.btn16to,.btn17mo,.btn18vo{cursor:pointer;transform: translate(0px, 0px);}
 .btn13ro:hover,.btn14to:hover,.btn15to:hover,.btn16to:hover,.btn17mo:hover,.btn18vo:hover{opacity: 0.7;}
 

@@ -12,10 +12,11 @@ const pisosC = document.querySelectorAll(".pisosC")
 const esquemaSoltero = document.querySelector(".esquemaSoltero")
 const esquemaPareja = document.querySelector(".esquemaPareja")
 const esquemaFamila = document.querySelector(".esquemaFamila")
-const h100 = document.querySelector(".h100")
 
 const reiniciar = ()=>{
-    removeEsquema()
+    esquemaSoltero.classList.remove("mostrarEsquema")
+    esquemaPareja.classList.remove("mostrarEsquema")
+    esquemaFamila.classList.remove("mostrarEsquema")
     pisosB.forEach(pisoBs=>pisoBs.classList.remove("desabilitarBtn"))
     pisosC.forEach(pisoCs=>pisoCs.classList.remove("desabilitarBtn"))
     allBloqueC.forEach(seccionB=>seccionB.classList.remove("actB"))
@@ -30,21 +31,15 @@ const reiniciar = ()=>{
     botonesBloqueC.classList.remove("mostrarPisosDosDormi")
     reiniarEdi.classList.remove("mostrarReinicio")
 }
-const removeEsquema = ()=>{
-    esquemaSoltero.classList.remove("mostrarEsquema")
-    esquemaPareja.classList.remove("mostrarEsquema")
-    esquemaFamila.classList.remove("mostrarEsquema")
-    h100.classList.remove("mostrarH100")
-}
 
 reiniarEdi.addEventListener("click", ()=>{reiniciar()})
 
 btnIni.forEach(btn=>{
     if(btn.classList.value.includes("unDormi")){
         btn.addEventListener("click", ()=>{
-            removeEsquema()
-
-
+            esquemaSoltero.classList.remove("mostrarEsquema")
+            esquemaPareja.classList.remove("mostrarEsquema")
+            esquemaFamila.classList.remove("mostrarEsquema")
             pisosB.forEach(pisoBs=>pisoBs.classList.remove("desabilitarBtn"))
             pisosC.forEach(pisoCs=>pisoCs.classList.remove("desabilitarBtn"))
             reiniarEdi.classList.add("mostrarReinicio")
@@ -66,7 +61,9 @@ btnIni.forEach(btn=>{
         })
     }else if(btn.classList.value.includes("dormiMono")){
         btn.addEventListener("click", ()=>{
-            removeEsquema()
+            esquemaSoltero.classList.remove("mostrarEsquema")
+            esquemaPareja.classList.remove("mostrarEsquema")
+            esquemaFamila.classList.remove("mostrarEsquema")
             pisosB.forEach(pisoBs=>pisoBs.classList.remove("desabilitarBtn"))
             pisosC.forEach(pisoCs=>pisoCs.classList.remove("desabilitarBtn"))
             reiniarEdi.classList.add("mostrarReinicio")
@@ -88,7 +85,9 @@ btnIni.forEach(btn=>{
         })
     }else if(btn.classList.value.includes("dosDormi")){
         btn.addEventListener("click", ()=>{
-            removeEsquema()
+            esquemaSoltero.classList.remove("mostrarEsquema")
+            esquemaPareja.classList.remove("mostrarEsquema")
+            esquemaFamila.classList.remove("mostrarEsquema")
             pisosB.forEach(pisoBs=>pisoBs.classList.remove("desabilitarBtn"))
             pisosC.forEach(pisoCs=>pisoCs.classList.remove("desabilitarBtn"))
             reiniarEdi.classList.add("mostrarReinicio")
@@ -113,13 +112,9 @@ btnIni.forEach(btn=>{
 pisosB.forEach(pisoB=>{
     pisoB.addEventListener("click", (e)=>{
         allSoltero.forEach(soltero=>{
-            if(soltero.classList.value.includes("actTipologia")){
-                esquemaSoltero.classList.add("mostrarEsquema")
-                h100.classList.add("mostrarH100")
-            }
-            // soltero.classList.value.includes("actTipologia")
-            // ? esquemaSoltero.classList.add("mostrarEsquema")
-            // : esquemaPareja.classList.add("mostrarEsquema")
+            soltero.classList.value.includes("actTipologia")
+            ? esquemaSoltero.classList.add("mostrarEsquema")
+            : esquemaPareja.classList.add("mostrarEsquema")
         })
         if(e.target.classList.value=="fnd5to" || e.target.classList.value=="txt5to"){
             pisosB.forEach(pisoBs=>pisoBs.classList.remove("desabilitarBtn"))
