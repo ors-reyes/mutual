@@ -4,23 +4,54 @@
 .edificio,.relleno{
     width: 100%;
     height: 100vh;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
-.contenedorEdi object{
+/* .contenedorEdi object{
     outline: 1px solid red;
-}
+} */
 .modal{
     width: 50vw;
     height: 50vh;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 5px;
     border: none;
-
 }
 .modal::backdrop{
     background-color: rgba(0, 0, 0, 0.5);
-
 }
+label{
+    font-weight: bolder;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cerrar{
+    background: #f00;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+.whatsapp{
+    background: darkgreen;
+    padding: 10px;
+    color: white;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+input{
+    padding: 10px;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 @media screen and (min-width: 768px) {}
 @media screen and (min-width: 1024px) {
     .edificio,.relleno{width: 50%;}

@@ -1,6 +1,10 @@
 let departamentoNumero = 0
 const modal = document.querySelector(".modal")
 const strong = document.querySelector("strong")
+const cerrar = document.querySelector(".cerrar")
+cerrar.addEventListener("click", ()=>{
+    modal.close()
+})
 console.log(strong)
 
 setTimeout(() => {
@@ -241,4 +245,5 @@ function sendwhatsapp(){
     +"%0a"
     +"Gracias";
     window.open(url, '_blank').focus();
+    location.reload();
   }
